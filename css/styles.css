@@ -46,6 +46,12 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
+.menu-nav{
+    color:#2e2f42;
+}
+.menu-nav:hover{
+    color:#404bbf;
+}
 .logo-navigation{
     color:#2e2f42;
 }
