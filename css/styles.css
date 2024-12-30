@@ -60,10 +60,10 @@ body{
     letter-spacing: 0.02em;
     color: #434455;
 }
-.mail{
+.contacts{
     color:#434455;
 }
-.mail:hover{
+.contacts:hover{
     color: #404bbf;
 }
 .page-main{
