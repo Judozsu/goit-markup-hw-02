@@ -4,21 +4,28 @@
     font-style: normal;
   }
   
-  .roboto-medium {
+.roboto-medium {
     font-family: "Roboto", serif;
     font-weight: 500;
     font-style: normal;
   }
   
-  .roboto-bold {
+.roboto-bold {
     font-family: "Roboto", serif;
     font-weight: 700;
     font-style: normal;
   } 
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
 body{
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto", "Open Sans", "Montserrat" ,"Lato" ,"Poppins", sans-serif;
     background: #fff;
     color: #2e2f42;
+    
 }
 .logo{
     font-weight: 700;
@@ -36,7 +43,7 @@ body{
     color: #2e2f42;
 }
 .adr{
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -60,6 +67,10 @@ body{
     letter-spacing: 0.04em;
     color: #fff;
     cursor: pointer;
+    background: #4d5ae5;
+}
+.page-main-button:hover{
+    background: #404bbf;
 }
 .advantage-title{
     font-weight: 500;
@@ -69,7 +80,7 @@ body{
     color: #2e2f42;
 }
 .advantage-text{
-    font-weight: 400;
+    
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -77,4 +88,10 @@ body{
 }
 .team{
     background: #f4f4fd;
+}
+.menu:hover,:active{
+    color: #404bbf;
+}
+.adr:hover,:focus{
+    color: #404bbf;
 }
